@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,59,0" name="SimpleContractLanguage.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/157417500235842580">
+    <file name="DateTime_Reference_Constraints.java">
+      <node id="157417500235842580" at="30,43,31,42" concept="9" />
+      <node id="5835056846093881243" at="42,63,43,137" concept="5" />
+      <node id="5835056846093881246" at="46,80,47,232" concept="4" />
+      <node id="5835056846093881261" at="47,232,48,665" concept="4" />
+      <node id="5835056846093881276" at="48,665,49,119" concept="5" />
+      <node id="157417500235842580" at="53,6,54,131" concept="4" />
+      <node id="5835056846093881243" at="54,131,55,42" concept="1" />
+      <node id="157417500235842580" at="55,42,56,22" concept="5" />
+      <node id="157417500235842580" at="60,0,61,0" concept="7" trace="DateTime_Reference$cx" />
+      <node id="157417500235842580" at="61,0,62,0" concept="7" trace="Action$kj" />
+      <node id="157417500235842580" at="62,0,63,0" concept="7" trace="DateTime$FP" />
+      <node id="157417500235842580" at="63,0,64,0" concept="7" trace="Contract$IL" />
+      <node id="157417500235842580" at="67,0,68,0" concept="7" trace="dateTime$y$gL" />
+      <node id="157417500235842580" at="68,0,69,0" concept="7" trace="elements$9Xin" />
+      <node id="157417500235842580" at="69,0,70,0" concept="7" trace="variables$zfTx" />
+      <node id="157417500235842580" at="30,0,33,0" concept="0" trace="DateTime_Reference_Constraints#()V" />
+      <node id="5835056846093881243" at="41,0,45,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="5835056846093881243" at="45,0,51,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="5835056846093881243" at="39,56,51,10" concept="5" />
+      <node id="5835056846093881243" at="37,0,53,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="5835056846093881243" at="35,90,53,6" concept="4" />
+      <node id="157417500235842580" at="34,0,58,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="157417500235842580" at="30,43,31,42" />
+      <scope id="5835056846093881243" at="42,63,43,137" />
+      <scope id="157417500235842580" at="30,0,33,0" />
+      <scope id="5835056846093881243" at="46,80,49,119">
+        <var name="Parameters" id="5835056846093881247" />
+        <var name="fields" id="5835056846093881262" />
+      </scope>
+      <scope id="5835056846093881243" at="41,0,45,0" />
+      <scope id="5835056846093881243" at="45,0,51,0">
+        <var name="_context" id="5835056846093881243" />
+      </scope>
+      <scope id="5835056846093881243" at="39,56,51,10" />
+      <scope id="5835056846093881243" at="37,0,53,0" />
+      <scope id="157417500235842580" at="35,90,56,22">
+        <var name="d0" id="5835056846093881243" />
+        <var name="references" id="157417500235842580" />
+      </scope>
+      <scope id="157417500235842580" at="34,0,58,0" />
+      <unit id="157417500235842580" at="66,0,71,0" name="SimpleContractLanguage.constraints.DateTime_Reference_Constraints$LINKS" />
+      <unit id="157417500235842580" at="59,0,65,0" name="SimpleContractLanguage.constraints.DateTime_Reference_Constraints$CONCEPTS" />
+      <unit id="5835056846093881243" at="40,19,51,9" name="SimpleContractLanguage.constraints.DateTime_Reference_Constraints$1$1" />
+      <unit id="5835056846093881243" at="36,48,53,5" name="SimpleContractLanguage.constraints.DateTime_Reference_Constraints$1" />
+      <unit id="157417500235842580" at="29,0,72,0" name="SimpleContractLanguage.constraints.DateTime_Reference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/1894891750408786368">
+    <file name="ParticipantReference_Constraints.java">
+      <node id="1894891750408786368" at="30,45,31,44" concept="9" />
+      <node id="1894891750408787444" at="42,63,43,137" concept="5" />
+      <node id="1894891750408789019" at="46,80,47,235" concept="4" />
+      <node id="1894891750408789034" at="47,235,48,549" concept="4" />
+      <node id="1894891750408789049" at="48,549,49,119" concept="5" />
+      <node id="1894891750408786368" at="53,6,54,131" concept="4" />
+      <node id="1894891750408787444" at="54,131,55,42" concept="1" />
+      <node id="1894891750408786368" at="55,42,56,22" concept="5" />
+      <node id="1894891750408786368" at="60,0,61,0" concept="7" trace="ParticipantReference$7b" />
+      <node id="1894891750408786368" at="61,0,62,0" concept="7" trace="Action$kj" />
+      <node id="1894891750408786368" at="62,0,63,0" concept="7" trace="Participant$LS" />
+      <node id="1894891750408786368" at="63,0,64,0" concept="7" trace="Contract$IL" />
+      <node id="1894891750408786368" at="67,0,68,0" concept="7" trace="participant$JU2H" />
+      <node id="1894891750408786368" at="68,0,69,0" concept="7" trace="elements$9Xin" />
+      <node id="1894891750408786368" at="69,0,70,0" concept="7" trace="participants$za28" />
+      <node id="1894891750408786368" at="30,0,33,0" concept="0" trace="ParticipantReference_Constraints#()V" />
+      <node id="1894891750408787444" at="41,0,45,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1894891750408787444" at="45,0,51,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1894891750408787444" at="39,56,51,10" concept="5" />
+      <node id="1894891750408787444" at="37,0,53,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1894891750408787444" at="35,90,53,6" concept="4" />
+      <node id="1894891750408786368" at="34,0,58,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="1894891750408786368" at="30,45,31,44" />
+      <scope id="1894891750408787444" at="42,63,43,137" />
+      <scope id="1894891750408786368" at="30,0,33,0" />
+      <scope id="1894891750408787444" at="46,80,49,119">
+        <var name="Parameters" id="1894891750408789020" />
+        <var name="fields" id="1894891750408789035" />
+      </scope>
+      <scope id="1894891750408787444" at="41,0,45,0" />
+      <scope id="1894891750408787444" at="45,0,51,0">
+        <var name="_context" id="1894891750408787444" />
+      </scope>
+      <scope id="1894891750408787444" at="39,56,51,10" />
+      <scope id="1894891750408787444" at="37,0,53,0" />
+      <scope id="1894891750408786368" at="35,90,56,22">
+        <var name="d0" id="1894891750408787444" />
+        <var name="references" id="1894891750408786368" />
+      </scope>
+      <scope id="1894891750408786368" at="34,0,58,0" />
+      <unit id="1894891750408786368" at="66,0,71,0" name="SimpleContractLanguage.constraints.ParticipantReference_Constraints$LINKS" />
+      <unit id="1894891750408786368" at="59,0,65,0" name="SimpleContractLanguage.constraints.ParticipantReference_Constraints$CONCEPTS" />
+      <unit id="1894891750408787444" at="40,19,51,9" name="SimpleContractLanguage.constraints.ParticipantReference_Constraints$1$1" />
+      <unit id="1894891750408787444" at="36,48,53,5" name="SimpleContractLanguage.constraints.ParticipantReference_Constraints$1" />
+      <unit id="1894891750408786368" at="29,0,72,0" name="SimpleContractLanguage.constraints.ParticipantReference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/1894891750409107338">
+    <file name="Integer_Reference_Constraints.java">
+      <node id="1894891750409107338" at="28,42,29,41" concept="9" />
+      <node id="1894891750409108414" at="40,63,41,137" concept="5" />
+      <node id="1894891750409108800" at="44,80,45,231" concept="4" />
+      <node id="1894891750409108815" at="45,231,46,230" concept="4" />
+      <node id="1894891750409108830" at="46,230,47,119" concept="5" />
+      <node id="1894891750409107338" at="51,6,52,131" concept="4" />
+      <node id="1894891750409108414" at="52,131,53,42" concept="1" />
+      <node id="1894891750409107338" at="53,42,54,22" concept="5" />
+      <node id="1894891750409107338" at="58,0,59,0" concept="7" trace="Integer_Reference$BL" />
+      <node id="1894891750409107338" at="59,0,60,0" concept="7" trace="Action$kj" />
+      <node id="1894891750409107338" at="60,0,61,0" concept="7" trace="Integer$Af" />
+      <node id="1894891750409107338" at="61,0,62,0" concept="7" trace="Contract$IL" />
+      <node id="1894891750409107338" at="65,0,66,0" concept="7" trace="Integer$yKP$" />
+      <node id="1894891750409107338" at="66,0,67,0" concept="7" trace="elements$9Xin" />
+      <node id="1894891750409107338" at="67,0,68,0" concept="7" trace="variables$zfTx" />
+      <node id="1894891750409107338" at="28,0,31,0" concept="0" trace="Integer_Reference_Constraints#()V" />
+      <node id="1894891750409108414" at="39,0,43,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1894891750409108414" at="43,0,49,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1894891750409108414" at="37,56,49,10" concept="5" />
+      <node id="1894891750409108414" at="35,0,51,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1894891750409108414" at="33,90,51,6" concept="4" />
+      <node id="1894891750409107338" at="32,0,56,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="1894891750409107338" at="28,42,29,41" />
+      <scope id="1894891750409108414" at="40,63,41,137" />
+      <scope id="1894891750409107338" at="28,0,31,0" />
+      <scope id="1894891750409108414" at="44,80,47,119">
+        <var name="Parameters" id="1894891750409108801" />
+        <var name="fields" id="1894891750409108816" />
+      </scope>
+      <scope id="1894891750409108414" at="39,0,43,0" />
+      <scope id="1894891750409108414" at="43,0,49,0">
+        <var name="_context" id="1894891750409108414" />
+      </scope>
+      <scope id="1894891750409108414" at="37,56,49,10" />
+      <scope id="1894891750409108414" at="35,0,51,0" />
+      <scope id="1894891750409107338" at="33,90,54,22">
+        <var name="d0" id="1894891750409108414" />
+        <var name="references" id="1894891750409107338" />
+      </scope>
+      <scope id="1894891750409107338" at="32,0,56,0" />
+      <unit id="1894891750409107338" at="64,0,69,0" name="SimpleContractLanguage.constraints.Integer_Reference_Constraints$LINKS" />
+      <unit id="1894891750409107338" at="57,0,63,0" name="SimpleContractLanguage.constraints.Integer_Reference_Constraints$CONCEPTS" />
+      <unit id="1894891750409108414" at="38,19,49,9" name="SimpleContractLanguage.constraints.Integer_Reference_Constraints$1$1" />
+      <unit id="1894891750409108414" at="34,48,51,5" name="SimpleContractLanguage.constraints.Integer_Reference_Constraints$1" />
+      <unit id="1894891750409107338" at="27,0,70,0" name="SimpleContractLanguage.constraints.Integer_Reference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/2969330389173251090">
+    <file name="addDuration_Constraints.java">
+      <node id="2969330389173251090" at="21,36,22,35" concept="9" />
+      <node id="2969330389173251090" at="29,127,30,128" concept="4" />
+      <node id="2969330389173251090" at="30,128,31,0" concept="6" />
+      <node id="2969330389173251090" at="32,55,33,71" concept="1" />
+      <node id="2969330389173251090" at="34,9,35,0" concept="6" />
+      <node id="2969330389173251090" at="35,0,36,22" concept="5" />
+      <node id="2969330389173260910" at="42,181,43,20" concept="5" />
+      <node id="2969330389173261244" at="45,5,46,17" concept="5" />
+      <node id="2969330389173251090" at="48,0,49,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="2969330389173251090" at="51,0,52,0" concept="7" trace="addDuration$Vc" />
+      <node id="2969330389173251090" at="52,0,53,0" concept="7" trace="DotExpression$yW" />
+      <node id="2969330389173251090" at="53,0,54,0" concept="7" trace="DateTime_Reference$cx" />
+      <node id="2969330389173251090" at="57,0,58,0" concept="7" trace="operand$w6IR" />
+      <node id="2969330389173251090" at="21,0,24,0" concept="0" trace="addDuration_Constraints#()V" />
+      <node id="2969330389173251090" at="31,0,34,9" concept="2" />
+      <node id="2969330389173254522" at="41,78,44,7" concept="2" />
+      <node id="2969330389173251370" at="40,128,45,5" concept="2" />
+      <node id="2969330389173251090" at="40,0,48,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="2969330389173251090" at="28,0,38,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="2969330389173251090" at="26,103,38,6" concept="5" />
+      <node id="2969330389173251090" at="25,0,40,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="2969330389173251090" at="21,36,22,35" />
+      <scope id="2969330389173251090" at="32,55,33,71" />
+      <scope id="2969330389173254524" at="42,181,43,20" />
+      <scope id="2969330389173251090" at="21,0,24,0" />
+      <scope id="2969330389173251372" at="41,78,44,7" />
+      <scope id="2969330389173251116" at="40,128,46,17" />
+      <scope id="2969330389173251090" at="29,127,36,22">
+        <var name="result" id="2969330389173251090" />
+      </scope>
+      <scope id="2969330389173251090" at="40,0,48,0">
+        <var name="childConcept" id="2969330389173251090" />
+        <var name="link" id="2969330389173251090" />
+        <var name="node" id="2969330389173251090" />
+        <var name="parentNode" id="2969330389173251090" />
+      </scope>
+      <scope id="2969330389173251090" at="28,0,38,0">
+        <var name="checkingNodeContext" id="2969330389173251090" />
+        <var name="context" id="2969330389173251090" />
+      </scope>
+      <scope id="2969330389173251090" at="26,103,38,6" />
+      <scope id="2969330389173251090" at="25,0,40,0" />
+      <unit id="2969330389173251090" at="56,0,59,0" name="SimpleContractLanguage.constraints.addDuration_Constraints$LINKS" />
+      <unit id="2969330389173251090" at="50,0,55,0" name="SimpleContractLanguage.constraints.addDuration_Constraints$CONCEPTS" />
+      <unit id="2969330389173251090" at="27,15,38,5" name="SimpleContractLanguage.constraints.addDuration_Constraints$1" />
+      <unit id="2969330389173251090" at="20,0,60,0" name="SimpleContractLanguage.constraints.addDuration_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/2969330389173603378">
+    <file name="DateTime_Method_isAfter_Constraints.java">
+      <node id="2969330389173603378" at="21,48,22,47" concept="9" />
+      <node id="2969330389173603378" at="29,127,30,128" concept="4" />
+      <node id="2969330389173603378" at="30,128,31,0" concept="6" />
+      <node id="2969330389173603378" at="32,55,33,71" concept="1" />
+      <node id="2969330389173603378" at="34,9,35,0" concept="6" />
+      <node id="2969330389173603378" at="35,0,36,22" concept="5" />
+      <node id="2969330389173613944" at="42,181,43,20" concept="5" />
+      <node id="2969330389173614266" at="45,5,46,17" concept="5" />
+      <node id="2969330389173603378" at="48,0,49,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="2969330389173603378" at="51,0,52,0" concept="7" trace="DateTime_Method_isAfter$2K" />
+      <node id="2969330389173603378" at="52,0,53,0" concept="7" trace="DotExpression$yW" />
+      <node id="2969330389173603378" at="53,0,54,0" concept="7" trace="DateTime_Reference$cx" />
+      <node id="2969330389173603378" at="57,0,58,0" concept="7" trace="operand$w6IR" />
+      <node id="2969330389173603378" at="21,0,24,0" concept="0" trace="DateTime_Method_isAfter_Constraints#()V" />
+      <node id="2969330389173603378" at="31,0,34,9" concept="2" />
+      <node id="2969330389173606678" at="41,78,44,7" concept="2" />
+      <node id="2969330389173604827" at="40,128,45,5" concept="2" />
+      <node id="2969330389173603378" at="40,0,48,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="2969330389173603378" at="28,0,38,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="2969330389173603378" at="26,103,38,6" concept="5" />
+      <node id="2969330389173603378" at="25,0,40,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="2969330389173603378" at="21,48,22,47" />
+      <scope id="2969330389173603378" at="32,55,33,71" />
+      <scope id="2969330389173606680" at="42,181,43,20" />
+      <scope id="2969330389173603378" at="21,0,24,0" />
+      <scope id="2969330389173604829" at="41,78,44,7" />
+      <scope id="2969330389173604573" at="40,128,46,17" />
+      <scope id="2969330389173603378" at="29,127,36,22">
+        <var name="result" id="2969330389173603378" />
+      </scope>
+      <scope id="2969330389173603378" at="40,0,48,0">
+        <var name="childConcept" id="2969330389173603378" />
+        <var name="link" id="2969330389173603378" />
+        <var name="node" id="2969330389173603378" />
+        <var name="parentNode" id="2969330389173603378" />
+      </scope>
+      <scope id="2969330389173603378" at="28,0,38,0">
+        <var name="checkingNodeContext" id="2969330389173603378" />
+        <var name="context" id="2969330389173603378" />
+      </scope>
+      <scope id="2969330389173603378" at="26,103,38,6" />
+      <scope id="2969330389173603378" at="25,0,40,0" />
+      <unit id="2969330389173603378" at="56,0,59,0" name="SimpleContractLanguage.constraints.DateTime_Method_isAfter_Constraints$LINKS" />
+      <unit id="2969330389173603378" at="50,0,55,0" name="SimpleContractLanguage.constraints.DateTime_Method_isAfter_Constraints$CONCEPTS" />
+      <unit id="2969330389173603378" at="27,15,38,5" name="SimpleContractLanguage.constraints.DateTime_Method_isAfter_Constraints$1" />
+      <unit id="2969330389173603378" at="20,0,60,0" name="SimpleContractLanguage.constraints.DateTime_Method_isAfter_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/2969330389173614418">
+    <file name="DateTime_Method_isBefore_Constraints.java">
+      <node id="2969330389173614418" at="21,49,22,48" concept="9" />
+      <node id="2969330389173614418" at="29,127,30,128" concept="4" />
+      <node id="2969330389173614418" at="30,128,31,0" concept="6" />
+      <node id="2969330389173614418" at="32,55,33,71" concept="1" />
+      <node id="2969330389173614418" at="34,9,35,0" concept="6" />
+      <node id="2969330389173614418" at="35,0,36,22" concept="5" />
+      <node id="2969330389173622856" at="42,181,43,20" concept="5" />
+      <node id="2969330389173623204" at="45,5,46,17" concept="5" />
+      <node id="2969330389173614418" at="48,0,49,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="2969330389173614418" at="51,0,52,0" concept="7" trace="DateTime_Method_isBefore$jd" />
+      <node id="2969330389173614418" at="52,0,53,0" concept="7" trace="DotExpression$yW" />
+      <node id="2969330389173614418" at="53,0,54,0" concept="7" trace="DateTime_Reference$cx" />
+      <node id="2969330389173614418" at="57,0,58,0" concept="7" trace="operand$w6IR" />
+      <node id="2969330389173614418" at="21,0,24,0" concept="0" trace="DateTime_Method_isBefore_Constraints#()V" />
+      <node id="2969330389173614418" at="31,0,34,9" concept="2" />
+      <node id="2969330389173616754" at="41,78,44,7" concept="2" />
+      <node id="2969330389173614720" at="40,128,45,5" concept="2" />
+      <node id="2969330389173614418" at="40,0,48,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="2969330389173614418" at="28,0,38,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="2969330389173614418" at="26,103,38,6" concept="5" />
+      <node id="2969330389173614418" at="25,0,40,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="2969330389173614418" at="21,49,22,48" />
+      <scope id="2969330389173614418" at="32,55,33,71" />
+      <scope id="2969330389173616756" at="42,181,43,20" />
+      <scope id="2969330389173614418" at="21,0,24,0" />
+      <scope id="2969330389173614722" at="41,78,44,7" />
+      <scope id="2969330389173614444" at="40,128,46,17" />
+      <scope id="2969330389173614418" at="29,127,36,22">
+        <var name="result" id="2969330389173614418" />
+      </scope>
+      <scope id="2969330389173614418" at="40,0,48,0">
+        <var name="childConcept" id="2969330389173614418" />
+        <var name="link" id="2969330389173614418" />
+        <var name="node" id="2969330389173614418" />
+        <var name="parentNode" id="2969330389173614418" />
+      </scope>
+      <scope id="2969330389173614418" at="28,0,38,0">
+        <var name="checkingNodeContext" id="2969330389173614418" />
+        <var name="context" id="2969330389173614418" />
+      </scope>
+      <scope id="2969330389173614418" at="26,103,38,6" />
+      <scope id="2969330389173614418" at="25,0,40,0" />
+      <unit id="2969330389173614418" at="56,0,59,0" name="SimpleContractLanguage.constraints.DateTime_Method_isBefore_Constraints$LINKS" />
+      <unit id="2969330389173614418" at="50,0,55,0" name="SimpleContractLanguage.constraints.DateTime_Method_isBefore_Constraints$CONCEPTS" />
+      <unit id="2969330389173614418" at="27,15,38,5" name="SimpleContractLanguage.constraints.DateTime_Method_isBefore_Constraints$1" />
+      <unit id="2969330389173614418" at="20,0,60,0" name="SimpleContractLanguage.constraints.DateTime_Method_isBefore_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/3087574539577458120">
+    <file name="Participant_Method_deposit_Constraints.java">
+      <node id="3087574539577458120" at="21,51,22,50" concept="9" />
+      <node id="3087574539577458120" at="29,127,30,128" concept="4" />
+      <node id="3087574539577458120" at="30,128,31,0" concept="6" />
+      <node id="3087574539577458120" at="32,55,33,71" concept="1" />
+      <node id="3087574539577458120" at="34,9,35,0" concept="6" />
+      <node id="3087574539577458120" at="35,0,36,22" concept="5" />
+      <node id="3087574539577478834" at="42,183,43,20" concept="5" />
+      <node id="3087574539577479479" at="45,5,46,17" concept="5" />
+      <node id="3087574539577458120" at="48,0,49,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="3087574539577458120" at="51,0,52,0" concept="7" trace="Participant_Method_deposit$uS" />
+      <node id="3087574539577458120" at="52,0,53,0" concept="7" trace="DotExpression$yW" />
+      <node id="3087574539577458120" at="53,0,54,0" concept="7" trace="ParticipantReference$7b" />
+      <node id="3087574539577458120" at="57,0,58,0" concept="7" trace="operand$w6IR" />
+      <node id="3087574539577458120" at="21,0,24,0" concept="0" trace="Participant_Method_deposit_Constraints#()V" />
+      <node id="3087574539577458120" at="31,0,34,9" concept="2" />
+      <node id="3087574539577470743" at="41,78,44,7" concept="2" />
+      <node id="3087574539577468086" at="40,128,45,5" concept="2" />
+      <node id="3087574539577458120" at="40,0,48,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="3087574539577458120" at="28,0,38,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="3087574539577458120" at="26,103,38,6" concept="5" />
+      <node id="3087574539577458120" at="25,0,40,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="3087574539577458120" at="21,51,22,50" />
+      <scope id="3087574539577458120" at="32,55,33,71" />
+      <scope id="3087574539577470745" at="42,183,43,20" />
+      <scope id="3087574539577458120" at="21,0,24,0" />
+      <scope id="3087574539577468088" at="41,78,44,7" />
+      <scope id="3087574539577458364" at="40,128,46,17" />
+      <scope id="3087574539577458120" at="29,127,36,22">
+        <var name="result" id="3087574539577458120" />
+      </scope>
+      <scope id="3087574539577458120" at="40,0,48,0">
+        <var name="childConcept" id="3087574539577458120" />
+        <var name="link" id="3087574539577458120" />
+        <var name="node" id="3087574539577458120" />
+        <var name="parentNode" id="3087574539577458120" />
+      </scope>
+      <scope id="3087574539577458120" at="28,0,38,0">
+        <var name="checkingNodeContext" id="3087574539577458120" />
+        <var name="context" id="3087574539577458120" />
+      </scope>
+      <scope id="3087574539577458120" at="26,103,38,6" />
+      <scope id="3087574539577458120" at="25,0,40,0" />
+      <unit id="3087574539577458120" at="56,0,59,0" name="SimpleContractLanguage.constraints.Participant_Method_deposit_Constraints$LINKS" />
+      <unit id="3087574539577458120" at="50,0,55,0" name="SimpleContractLanguage.constraints.Participant_Method_deposit_Constraints$CONCEPTS" />
+      <unit id="3087574539577458120" at="27,15,38,5" name="SimpleContractLanguage.constraints.Participant_Method_deposit_Constraints$1" />
+      <unit id="3087574539577458120" at="20,0,60,0" name="SimpleContractLanguage.constraints.Participant_Method_deposit_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/3116170240217220501">
+    <file name="ActionTriggerStatement_Constraints.java">
+      <node id="3116170240217220501" at="29,47,30,46" concept="9" />
+      <node id="3116170240217221702" at="41,63,42,137" concept="5" />
+      <node id="3116170240218154566" at="45,80,46,560" concept="5" />
+      <node id="3116170240217220501" at="50,6,51,131" concept="4" />
+      <node id="3116170240217221702" at="51,131,52,42" concept="1" />
+      <node id="3116170240217220501" at="52,42,53,22" concept="5" />
+      <node id="3116170240217220501" at="57,0,58,0" concept="7" trace="ActionTriggerStatement$QK" />
+      <node id="3116170240217220501" at="58,0,59,0" concept="7" trace="Contract$IL" />
+      <node id="3116170240217220501" at="59,0,60,0" concept="7" trace="Participant$LS" />
+      <node id="3116170240217220501" at="63,0,64,0" concept="7" trace="participant$rnBV" />
+      <node id="3116170240217220501" at="64,0,65,0" concept="7" trace="participants$za28" />
+      <node id="3116170240217220501" at="29,0,32,0" concept="0" trace="ActionTriggerStatement_Constraints#()V" />
+      <node id="3116170240217221702" at="40,0,44,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="3116170240217221702" at="44,0,48,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="3116170240217221702" at="38,56,48,10" concept="5" />
+      <node id="3116170240217221702" at="36,0,50,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="3116170240217221702" at="34,90,50,6" concept="4" />
+      <node id="3116170240217220501" at="33,0,55,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="3116170240217220501" at="29,47,30,46" />
+      <scope id="3116170240217221702" at="41,63,42,137" />
+      <scope id="3116170240217221702" at="45,80,46,560" />
+      <scope id="3116170240217220501" at="29,0,32,0" />
+      <scope id="3116170240217221702" at="40,0,44,0" />
+      <scope id="3116170240217221702" at="44,0,48,0">
+        <var name="_context" id="3116170240217221702" />
+      </scope>
+      <scope id="3116170240217221702" at="38,56,48,10" />
+      <scope id="3116170240217221702" at="36,0,50,0" />
+      <scope id="3116170240217220501" at="34,90,53,22">
+        <var name="d0" id="3116170240217221702" />
+        <var name="references" id="3116170240217220501" />
+      </scope>
+      <scope id="3116170240217220501" at="33,0,55,0" />
+      <unit id="3116170240217220501" at="62,0,66,0" name="SimpleContractLanguage.constraints.ActionTriggerStatement_Constraints$LINKS" />
+      <unit id="3116170240217220501" at="56,0,61,0" name="SimpleContractLanguage.constraints.ActionTriggerStatement_Constraints$CONCEPTS" />
+      <unit id="3116170240217221702" at="39,19,48,9" name="SimpleContractLanguage.constraints.ActionTriggerStatement_Constraints$1$1" />
+      <unit id="3116170240217221702" at="35,48,50,5" name="SimpleContractLanguage.constraints.ActionTriggerStatement_Constraints$1" />
+      <unit id="3116170240217220501" at="28,0,67,0" name="SimpleContractLanguage.constraints.ActionTriggerStatement_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/3116170240218776746">
+    <file name="ActionTrigger_Constraints.java">
+      <node id="3116170240218776746" at="31,38,32,37" concept="9" />
+      <node id="3116170240218777947" at="43,63,44,137" concept="5" />
+      <node id="3116170240219438127" at="49,47,50,102" concept="5" />
+      <node id="3116170240218776746" at="56,6,57,131" concept="4" />
+      <node id="3116170240218777947" at="57,131,58,42" concept="1" />
+      <node id="3116170240218776746" at="58,42,59,22" concept="5" />
+      <node id="3116170240218776746" at="63,0,64,0" concept="7" trace="ActionTrigger$KD" />
+      <node id="3116170240218776746" at="64,0,65,0" concept="7" trace="Contract$IL" />
+      <node id="3116170240218776746" at="65,0,66,0" concept="7" trace="Action$kj" />
+      <node id="3116170240218776746" at="69,0,70,0" concept="7" trace="actionRef$jnls" />
+      <node id="3116170240218776746" at="70,0,71,0" concept="7" trace="actions$zhyC" />
+      <node id="3116170240218776746" at="74,0,75,0" concept="7" trace="name$MnvL" />
+      <node id="3116170240218776746" at="31,0,34,0" concept="0" trace="ActionTrigger_Constraints#()V" />
+      <node id="3116170240219428594" at="49,0,52,0" concept="3" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="3116170240218777947" at="42,0,46,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="3116170240218784219" at="47,80,52,16" concept="5" />
+      <node id="3116170240218777947" at="46,0,54,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="3116170240218777947" at="40,56,54,10" concept="5" />
+      <node id="3116170240218777947" at="38,0,56,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="3116170240218777947" at="36,90,56,6" concept="4" />
+      <node id="3116170240218776746" at="35,0,61,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="3116170240218776746" at="31,38,32,37" />
+      <scope id="3116170240218777947" at="43,63,44,137" />
+      <scope id="3116170240219428595" at="49,47,50,102" />
+      <scope id="3116170240218776746" at="31,0,34,0" />
+      <scope id="3116170240219428594" at="49,0,52,0">
+        <var name="it" id="3116170240219428594" />
+      </scope>
+      <scope id="3116170240218777947" at="42,0,46,0" />
+      <scope id="3116170240218777947" at="47,80,52,16" />
+      <scope id="3116170240218777947" at="46,0,54,0">
+        <var name="_context" id="3116170240218777947" />
+      </scope>
+      <scope id="3116170240218777947" at="40,56,54,10" />
+      <scope id="3116170240218777947" at="38,0,56,0" />
+      <scope id="3116170240218776746" at="36,90,59,22">
+        <var name="d0" id="3116170240218777947" />
+        <var name="references" id="3116170240218776746" />
+      </scope>
+      <scope id="3116170240218776746" at="35,0,61,0" />
+      <unit id="3116170240218776746" at="73,0,76,0" name="SimpleContractLanguage.constraints.ActionTrigger_Constraints$PROPS" />
+      <unit id="3116170240219428594" at="48,270,52,13" name="SimpleContractLanguage.constraints.ActionTrigger_Constraints$1$1$1" />
+      <unit id="3116170240218776746" at="68,0,72,0" name="SimpleContractLanguage.constraints.ActionTrigger_Constraints$LINKS" />
+      <unit id="3116170240218776746" at="62,0,67,0" name="SimpleContractLanguage.constraints.ActionTrigger_Constraints$CONCEPTS" />
+      <unit id="3116170240218777947" at="41,19,54,9" name="SimpleContractLanguage.constraints.ActionTrigger_Constraints$1$1" />
+      <unit id="3116170240218777947" at="37,48,56,5" name="SimpleContractLanguage.constraints.ActionTrigger_Constraints$1" />
+      <unit id="3116170240218776746" at="30,0,77,0" name="SimpleContractLanguage.constraints.ActionTrigger_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/3116170240220081358">
+    <file name="TimeTriggerStatement_duration_Constraints.java">
+      <node id="3116170240220081358" at="29,54,30,53" concept="9" />
+      <node id="3116170240220082559" at="41,63,42,137" concept="5" />
+      <node id="3116170240220092610" at="45,80,46,676" concept="5" />
+      <node id="3116170240220081358" at="50,6,51,131" concept="4" />
+      <node id="3116170240220082559" at="51,131,52,42" concept="1" />
+      <node id="3116170240220081358" at="52,42,53,22" concept="5" />
+      <node id="3116170240220081358" at="57,0,58,0" concept="7" trace="TimeTriggerStatement_duration$Hq" />
+      <node id="3116170240220081358" at="58,0,59,0" concept="7" trace="Contract$IL" />
+      <node id="3116170240220081358" at="59,0,60,0" concept="7" trace="DateTime$FP" />
+      <node id="3116170240220081358" at="63,0,64,0" concept="7" trace="DateTime$gLMA" />
+      <node id="3116170240220081358" at="64,0,65,0" concept="7" trace="variables$zfTx" />
+      <node id="3116170240220081358" at="29,0,32,0" concept="0" trace="TimeTriggerStatement_duration_Constraints#()V" />
+      <node id="3116170240220082559" at="40,0,44,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="3116170240220082559" at="44,0,48,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="3116170240220082559" at="38,56,48,10" concept="5" />
+      <node id="3116170240220082559" at="36,0,50,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="3116170240220082559" at="34,90,50,6" concept="4" />
+      <node id="3116170240220081358" at="33,0,55,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="3116170240220081358" at="29,54,30,53" />
+      <scope id="3116170240220082559" at="41,63,42,137" />
+      <scope id="3116170240220082559" at="45,80,46,676" />
+      <scope id="3116170240220081358" at="29,0,32,0" />
+      <scope id="3116170240220082559" at="40,0,44,0" />
+      <scope id="3116170240220082559" at="44,0,48,0">
+        <var name="_context" id="3116170240220082559" />
+      </scope>
+      <scope id="3116170240220082559" at="38,56,48,10" />
+      <scope id="3116170240220082559" at="36,0,50,0" />
+      <scope id="3116170240220081358" at="34,90,53,22">
+        <var name="d0" id="3116170240220082559" />
+        <var name="references" id="3116170240220081358" />
+      </scope>
+      <scope id="3116170240220081358" at="33,0,55,0" />
+      <unit id="3116170240220081358" at="62,0,66,0" name="SimpleContractLanguage.constraints.TimeTriggerStatement_duration_Constraints$LINKS" />
+      <unit id="3116170240220081358" at="56,0,61,0" name="SimpleContractLanguage.constraints.TimeTriggerStatement_duration_Constraints$CONCEPTS" />
+      <unit id="3116170240220082559" at="39,19,48,9" name="SimpleContractLanguage.constraints.TimeTriggerStatement_duration_Constraints$1$1" />
+      <unit id="3116170240220082559" at="35,48,50,5" name="SimpleContractLanguage.constraints.TimeTriggerStatement_duration_Constraints$1" />
+      <unit id="3116170240220081358" at="28,0,67,0" name="SimpleContractLanguage.constraints.TimeTriggerStatement_duration_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/4190375612442630501">
+    <file name="Clause_Constraints.java">
+      <node id="4190375612442630501" at="29,31,30,30" concept="9" />
+      <node id="4190375612442630502" at="41,63,42,137" concept="5" />
+      <node id="4190375612442655638" at="45,80,46,560" concept="5" />
+      <node id="4190375612442630501" at="50,6,51,131" concept="4" />
+      <node id="4190375612442630502" at="51,131,52,42" concept="1" />
+      <node id="4190375612442630501" at="52,42,53,22" concept="5" />
+      <node id="4190375612442630501" at="57,0,58,0" concept="7" trace="Clause$Sq" />
+      <node id="4190375612442630501" at="58,0,59,0" concept="7" trace="Contract$IL" />
+      <node id="4190375612442630501" at="59,0,60,0" concept="7" trace="Participant$LS" />
+      <node id="4190375612442630501" at="63,0,64,0" concept="7" trace="participant$OmiB" />
+      <node id="4190375612442630501" at="64,0,65,0" concept="7" trace="participants$za28" />
+      <node id="4190375612442630501" at="29,0,32,0" concept="0" trace="Clause_Constraints#()V" />
+      <node id="4190375612442630502" at="40,0,44,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="4190375612442630502" at="44,0,48,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="4190375612442630502" at="38,56,48,10" concept="5" />
+      <node id="4190375612442630502" at="36,0,50,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="4190375612442630502" at="34,90,50,6" concept="4" />
+      <node id="4190375612442630501" at="33,0,55,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="4190375612442630501" at="29,31,30,30" />
+      <scope id="4190375612442630502" at="41,63,42,137" />
+      <scope id="4190375612442630502" at="45,80,46,560" />
+      <scope id="4190375612442630501" at="29,0,32,0" />
+      <scope id="4190375612442630502" at="40,0,44,0" />
+      <scope id="4190375612442630502" at="44,0,48,0">
+        <var name="_context" id="4190375612442630502" />
+      </scope>
+      <scope id="4190375612442630502" at="38,56,48,10" />
+      <scope id="4190375612442630502" at="36,0,50,0" />
+      <scope id="4190375612442630501" at="34,90,53,22">
+        <var name="d0" id="4190375612442630502" />
+        <var name="references" id="4190375612442630501" />
+      </scope>
+      <scope id="4190375612442630501" at="33,0,55,0" />
+      <unit id="4190375612442630501" at="62,0,66,0" name="SimpleContractLanguage.constraints.Clause_Constraints$LINKS" />
+      <unit id="4190375612442630501" at="56,0,61,0" name="SimpleContractLanguage.constraints.Clause_Constraints$CONCEPTS" />
+      <unit id="4190375612442630502" at="39,19,48,9" name="SimpleContractLanguage.constraints.Clause_Constraints$1$1" />
+      <unit id="4190375612442630502" at="35,48,50,5" name="SimpleContractLanguage.constraints.Clause_Constraints$1" />
+      <unit id="4190375612442630501" at="28,0,67,0" name="SimpleContractLanguage.constraints.Clause_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/4190375612443177332">
+    <file name="ActionReference_Constraints.java">
+      <node id="4190375612443177332" at="26,40,27,39" concept="9" />
+      <node id="4190375612443177333" at="38,63,39,137" concept="5" />
+      <node id="4190375612443179153" at="42,80,43,238" concept="5" />
+      <node id="4190375612443177332" at="47,6,48,131" concept="4" />
+      <node id="4190375612443177333" at="48,131,49,42" concept="1" />
+      <node id="4190375612443177332" at="49,42,50,22" concept="5" />
+      <node id="4190375612443177332" at="54,0,55,0" concept="7" trace="ActionReference$QC" />
+      <node id="4190375612443177332" at="55,0,56,0" concept="7" trace="Contract$IL" />
+      <node id="4190375612443177332" at="56,0,57,0" concept="7" trace="Action$kj" />
+      <node id="4190375612443177332" at="60,0,61,0" concept="7" trace="Action$aPpB" />
+      <node id="4190375612443177332" at="61,0,62,0" concept="7" trace="actions$zhyC" />
+      <node id="4190375612443177332" at="26,0,29,0" concept="0" trace="ActionReference_Constraints#()V" />
+      <node id="4190375612443177333" at="37,0,41,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="4190375612443177333" at="41,0,45,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="4190375612443177333" at="35,56,45,10" concept="5" />
+      <node id="4190375612443177333" at="33,0,47,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="4190375612443177333" at="31,90,47,6" concept="4" />
+      <node id="4190375612443177332" at="30,0,52,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="4190375612443177332" at="26,40,27,39" />
+      <scope id="4190375612443177333" at="38,63,39,137" />
+      <scope id="4190375612443177333" at="42,80,43,238" />
+      <scope id="4190375612443177332" at="26,0,29,0" />
+      <scope id="4190375612443177333" at="37,0,41,0" />
+      <scope id="4190375612443177333" at="41,0,45,0">
+        <var name="_context" id="4190375612443177333" />
+      </scope>
+      <scope id="4190375612443177333" at="35,56,45,10" />
+      <scope id="4190375612443177333" at="33,0,47,0" />
+      <scope id="4190375612443177332" at="31,90,50,22">
+        <var name="d0" id="4190375612443177333" />
+        <var name="references" id="4190375612443177332" />
+      </scope>
+      <scope id="4190375612443177332" at="30,0,52,0" />
+      <unit id="4190375612443177332" at="59,0,63,0" name="SimpleContractLanguage.constraints.ActionReference_Constraints$LINKS" />
+      <unit id="4190375612443177332" at="53,0,58,0" name="SimpleContractLanguage.constraints.ActionReference_Constraints$CONCEPTS" />
+      <unit id="4190375612443177333" at="36,19,45,9" name="SimpleContractLanguage.constraints.ActionReference_Constraints$1$1" />
+      <unit id="4190375612443177333" at="32,48,47,5" name="SimpleContractLanguage.constraints.ActionReference_Constraints$1" />
+      <unit id="4190375612443177332" at="25,0,64,0" name="SimpleContractLanguage.constraints.ActionReference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/5291776174930795151">
+    <file name="TokenTransaction_Method_amount_Constraints.java">
+      <node id="5291776174930795151" at="21,55,22,54" concept="9" />
+      <node id="5291776174930795151" at="29,127,30,128" concept="4" />
+      <node id="5291776174930795151" at="30,128,31,0" concept="6" />
+      <node id="5291776174930795151" at="32,55,33,71" concept="1" />
+      <node id="5291776174930795151" at="34,9,35,0" concept="6" />
+      <node id="5291776174930795151" at="35,0,36,22" concept="5" />
+      <node id="5291776174930803286" at="42,189,43,20" concept="5" />
+      <node id="5291776174930804670" at="45,5,46,17" concept="5" />
+      <node id="5291776174930795151" at="48,0,49,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="5291776174930795151" at="51,0,52,0" concept="7" trace="TokenTransaction_Method_amount$pV" />
+      <node id="5291776174930795151" at="52,0,53,0" concept="7" trace="DotExpression$yW" />
+      <node id="5291776174930795151" at="53,0,54,0" concept="7" trace="TokenTransaction_Reference$e5" />
+      <node id="5291776174930795151" at="57,0,58,0" concept="7" trace="operand$w6IR" />
+      <node id="5291776174930795151" at="21,0,24,0" concept="0" trace="TokenTransaction_Method_amount_Constraints#()V" />
+      <node id="5291776174930795151" at="31,0,34,9" concept="2" />
+      <node id="5291776174930796996" at="41,78,44,7" concept="2" />
+      <node id="5291776174930795247" at="40,128,45,5" concept="2" />
+      <node id="5291776174930795151" at="40,0,48,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="5291776174930795151" at="28,0,38,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="5291776174930795151" at="26,103,38,6" concept="5" />
+      <node id="5291776174930795151" at="25,0,40,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="5291776174930795151" at="21,55,22,54" />
+      <scope id="5291776174930795151" at="32,55,33,71" />
+      <scope id="5291776174930796998" at="42,189,43,20" />
+      <scope id="5291776174930795151" at="21,0,24,0" />
+      <scope id="5291776174930795249" at="41,78,44,7" />
+      <scope id="5291776174930795225" at="40,128,46,17" />
+      <scope id="5291776174930795151" at="29,127,36,22">
+        <var name="result" id="5291776174930795151" />
+      </scope>
+      <scope id="5291776174930795151" at="40,0,48,0">
+        <var name="childConcept" id="5291776174930795151" />
+        <var name="link" id="5291776174930795151" />
+        <var name="node" id="5291776174930795151" />
+        <var name="parentNode" id="5291776174930795151" />
+      </scope>
+      <scope id="5291776174930795151" at="28,0,38,0">
+        <var name="checkingNodeContext" id="5291776174930795151" />
+        <var name="context" id="5291776174930795151" />
+      </scope>
+      <scope id="5291776174930795151" at="26,103,38,6" />
+      <scope id="5291776174930795151" at="25,0,40,0" />
+      <unit id="5291776174930795151" at="56,0,59,0" name="SimpleContractLanguage.constraints.TokenTransaction_Method_amount_Constraints$LINKS" />
+      <unit id="5291776174930795151" at="50,0,55,0" name="SimpleContractLanguage.constraints.TokenTransaction_Method_amount_Constraints$CONCEPTS" />
+      <unit id="5291776174930795151" at="27,15,38,5" name="SimpleContractLanguage.constraints.TokenTransaction_Method_amount_Constraints$1" />
+      <unit id="5291776174930795151" at="20,0,60,0" name="SimpleContractLanguage.constraints.TokenTransaction_Method_amount_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/5918562471187935891">
+    <file name="Duration_Reference_Constraints.java">
+      <node id="5918562471187935891" at="28,43,29,42" concept="9" />
+      <node id="5918562471187935942" at="40,63,41,137" concept="5" />
+      <node id="5918562471187936726" at="44,80,45,232" concept="4" />
+      <node id="5918562471187938362" at="45,232,46,231" concept="4" />
+      <node id="5918562471187939627" at="46,231,47,119" concept="5" />
+      <node id="5918562471187935891" at="51,6,52,131" concept="4" />
+      <node id="5918562471187935942" at="52,131,53,42" concept="1" />
+      <node id="5918562471187935891" at="53,42,54,22" concept="5" />
+      <node id="5918562471187935891" at="58,0,59,0" concept="7" trace="Duration_Reference$PX" />
+      <node id="5918562471187935891" at="59,0,60,0" concept="7" trace="Action$kj" />
+      <node id="5918562471187935891" at="60,0,61,0" concept="7" trace="Duration$JK" />
+      <node id="5918562471187935891" at="61,0,62,0" concept="7" trace="Contract$IL" />
+      <node id="5918562471187935891" at="65,0,66,0" concept="7" trace="duration$PA4" />
+      <node id="5918562471187935891" at="66,0,67,0" concept="7" trace="elements$9Xin" />
+      <node id="5918562471187935891" at="67,0,68,0" concept="7" trace="variables$zfTx" />
+      <node id="5918562471187935891" at="28,0,31,0" concept="0" trace="Duration_Reference_Constraints#()V" />
+      <node id="5918562471187935942" at="39,0,43,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="5918562471187935942" at="43,0,49,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="5918562471187935942" at="37,56,49,10" concept="5" />
+      <node id="5918562471187935942" at="35,0,51,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="5918562471187935942" at="33,90,51,6" concept="4" />
+      <node id="5918562471187935891" at="32,0,56,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="5918562471187935891" at="28,43,29,42" />
+      <scope id="5918562471187935942" at="40,63,41,137" />
+      <scope id="5918562471187935891" at="28,0,31,0" />
+      <scope id="5918562471187935942" at="44,80,47,119">
+        <var name="Parameters" id="5918562471187936729" />
+        <var name="fields" id="5918562471187938363" />
+      </scope>
+      <scope id="5918562471187935942" at="39,0,43,0" />
+      <scope id="5918562471187935942" at="43,0,49,0">
+        <var name="_context" id="5918562471187935942" />
+      </scope>
+      <scope id="5918562471187935942" at="37,56,49,10" />
+      <scope id="5918562471187935942" at="35,0,51,0" />
+      <scope id="5918562471187935891" at="33,90,54,22">
+        <var name="d0" id="5918562471187935942" />
+        <var name="references" id="5918562471187935891" />
+      </scope>
+      <scope id="5918562471187935891" at="32,0,56,0" />
+      <unit id="5918562471187935891" at="64,0,69,0" name="SimpleContractLanguage.constraints.Duration_Reference_Constraints$LINKS" />
+      <unit id="5918562471187935891" at="57,0,63,0" name="SimpleContractLanguage.constraints.Duration_Reference_Constraints$CONCEPTS" />
+      <unit id="5918562471187935942" at="38,19,49,9" name="SimpleContractLanguage.constraints.Duration_Reference_Constraints$1$1" />
+      <unit id="5918562471187935942" at="34,48,51,5" name="SimpleContractLanguage.constraints.Duration_Reference_Constraints$1" />
+      <unit id="5918562471187935891" at="27,0,70,0" name="SimpleContractLanguage.constraints.Duration_Reference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/5918562471187943236">
+    <file name="TokenTransaction_Reference_Constraints.java">
+      <node id="5918562471187943236" at="27,51,28,50" concept="9" />
+      <node id="5918562471187943287" at="39,63,40,137" concept="5" />
+      <node id="5918562471187943794" at="43,80,44,240" concept="4" />
+      <node id="5918562471187947630" at="44,240,45,58" concept="5" />
+      <node id="5918562471187943236" at="49,6,50,131" concept="4" />
+      <node id="5918562471187943287" at="50,131,51,42" concept="1" />
+      <node id="5918562471187943236" at="51,42,52,22" concept="5" />
+      <node id="5918562471187943236" at="56,0,57,0" concept="7" trace="TokenTransaction_Reference$e5" />
+      <node id="5918562471187943236" at="57,0,58,0" concept="7" trace="Action$kj" />
+      <node id="5918562471187943236" at="58,0,59,0" concept="7" trace="TokenTransaction$QQ" />
+      <node id="5918562471187943236" at="62,0,63,0" concept="7" trace="TokenTransaction$u1E4" />
+      <node id="5918562471187943236" at="63,0,64,0" concept="7" trace="elements$9Xin" />
+      <node id="5918562471187943236" at="27,0,30,0" concept="0" trace="TokenTransaction_Reference_Constraints#()V" />
+      <node id="5918562471187943287" at="38,0,42,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="5918562471187943287" at="42,0,47,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="5918562471187943287" at="36,56,47,10" concept="5" />
+      <node id="5918562471187943287" at="34,0,49,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="5918562471187943287" at="32,90,49,6" concept="4" />
+      <node id="5918562471187943236" at="31,0,54,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="5918562471187943236" at="27,51,28,50" />
+      <scope id="5918562471187943287" at="39,63,40,137" />
+      <scope id="5918562471187943287" at="43,80,45,58">
+        <var name="Parameters" id="5918562471187943797" />
+      </scope>
+      <scope id="5918562471187943236" at="27,0,30,0" />
+      <scope id="5918562471187943287" at="38,0,42,0" />
+      <scope id="5918562471187943287" at="42,0,47,0">
+        <var name="_context" id="5918562471187943287" />
+      </scope>
+      <scope id="5918562471187943287" at="36,56,47,10" />
+      <scope id="5918562471187943287" at="34,0,49,0" />
+      <scope id="5918562471187943236" at="32,90,52,22">
+        <var name="d0" id="5918562471187943287" />
+        <var name="references" id="5918562471187943236" />
+      </scope>
+      <scope id="5918562471187943236" at="31,0,54,0" />
+      <unit id="5918562471187943236" at="61,0,65,0" name="SimpleContractLanguage.constraints.TokenTransaction_Reference_Constraints$LINKS" />
+      <unit id="5918562471187943236" at="55,0,60,0" name="SimpleContractLanguage.constraints.TokenTransaction_Reference_Constraints$CONCEPTS" />
+      <unit id="5918562471187943287" at="37,19,47,9" name="SimpleContractLanguage.constraints.TokenTransaction_Reference_Constraints$1$1" />
+      <unit id="5918562471187943287" at="33,48,49,5" name="SimpleContractLanguage.constraints.TokenTransaction_Reference_Constraints$1" />
+      <unit id="5918562471187943236" at="26,0,66,0" name="SimpleContractLanguage.constraints.TokenTransaction_Reference_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:9e415e95-7194-4344-be96-1ba919ec9b6b(SimpleContractLanguage.constraints)/6625966364249957625">
+    <file name="Transfer_Constraints.java">
+      <node id="6625966364249957625" at="29,33,30,32" concept="9" />
+      <node id="6625966364249959588" at="41,63,42,137" concept="5" />
+      <node id="6625966364249959591" at="45,80,46,560" concept="5" />
+      <node id="6625966364249957625" at="50,6,51,131" concept="4" />
+      <node id="6625966364249959588" at="51,131,52,42" concept="1" />
+      <node id="6625966364249957625" at="52,42,53,22" concept="5" />
+      <node id="6625966364249957625" at="57,0,58,0" concept="7" trace="Transfer$qh" />
+      <node id="6625966364249957625" at="58,0,59,0" concept="7" trace="Contract$IL" />
+      <node id="6625966364249957625" at="59,0,60,0" concept="7" trace="Participant$LS" />
+      <node id="6625966364249957625" at="63,0,64,0" concept="7" trace="participant$k7lb" />
+      <node id="6625966364249957625" at="64,0,65,0" concept="7" trace="participants$za28" />
+      <node id="6625966364249957625" at="29,0,32,0" concept="0" trace="Transfer_Constraints#()V" />
+      <node id="6625966364249959588" at="40,0,44,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="6625966364249959588" at="44,0,48,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="6625966364249959588" at="38,56,48,10" concept="5" />
+      <node id="6625966364249959588" at="36,0,50,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="6625966364249959588" at="34,90,50,6" concept="4" />
+      <node id="6625966364249957625" at="33,0,55,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="6625966364249957625" at="29,33,30,32" />
+      <scope id="6625966364249959588" at="41,63,42,137" />
+      <scope id="6625966364249959588" at="45,80,46,560" />
+      <scope id="6625966364249957625" at="29,0,32,0" />
+      <scope id="6625966364249959588" at="40,0,44,0" />
+      <scope id="6625966364249959588" at="44,0,48,0">
+        <var name="_context" id="6625966364249959588" />
+      </scope>
+      <scope id="6625966364249959588" at="38,56,48,10" />
+      <scope id="6625966364249959588" at="36,0,50,0" />
+      <scope id="6625966364249957625" at="34,90,53,22">
+        <var name="d0" id="6625966364249959588" />
+        <var name="references" id="6625966364249957625" />
+      </scope>
+      <scope id="6625966364249957625" at="33,0,55,0" />
+      <unit id="6625966364249957625" at="62,0,66,0" name="SimpleContractLanguage.constraints.Transfer_Constraints$LINKS" />
+      <unit id="6625966364249957625" at="56,0,61,0" name="SimpleContractLanguage.constraints.Transfer_Constraints$CONCEPTS" />
+      <unit id="6625966364249959588" at="39,19,48,9" name="SimpleContractLanguage.constraints.Transfer_Constraints$1$1" />
+      <unit id="6625966364249959588" at="35,48,50,5" name="SimpleContractLanguage.constraints.Transfer_Constraints$1" />
+      <unit id="6625966364249957625" at="28,0,67,0" name="SimpleContractLanguage.constraints.Transfer_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-3be6rrmp0xu2bptubwf5x868kl0oh8z">
+  <files names="Action__BehaviorDescriptor.java:BehaviorAspectDescriptor.java:Contract__BehaviorDescriptor.java:DateTime_Reference__BehaviorDescriptor.java:Duration_Reference__BehaviorDescriptor.java:Integer_Reference__BehaviorDescriptor.java:ParticipantReference__BehaviorDescriptor.java:Require__BehaviorDescriptor.java:TokenTransaction_Reference__BehaviorDescriptor.java:Transfer__BehaviorDescriptor.java" />
+</product>
+

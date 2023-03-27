@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-9ug33b72a2wtswlzjyf4wdrsiok0hlb">
+  <files names="ActionReference_Constraints.java:ActionTriggerStatement_Constraints.java:ActionTrigger_Constraints.java:Clause_Constraints.java:ConstraintsAspectDescriptor.java:DateTime_Method_isAfter_Constraints.java:DateTime_Method_isBefore_Constraints.java:DateTime_Reference_Constraints.java:Duration_Reference_Constraints.java:Integer_Reference_Constraints.java:ParticipantReference_Constraints.java:Participant_Method_deposit_Constraints.java:TimeTriggerStatement_duration_Constraints.java:TokenTransaction_Method_amount_Constraints.java:TokenTransaction_Reference_Constraints.java:Transfer_Constraints.java:addDuration_Constraints.java" />
+</product>
+

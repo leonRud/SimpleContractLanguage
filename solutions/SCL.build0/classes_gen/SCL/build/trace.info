@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:a494e4f3-db7c-4bfa-af23-3bd26abcb398(SCL.build)/6371474974025189640">
+    <file name="SCL.xml">
+      <unit id="6371474974025189640" at="1,0,737,10" name="SCL.build.SCL" />
+    </file>
+  </root>
+  <root nodeRef="r:a494e4f3-db7c-4bfa-af23-3bd26abcb398(SCL.build)/6371474974025189792">
+    <file name="SCLDistribution.xml">
+      <unit id="6371474974025189792" at="1,0,157,10" name="SCL.build.SCLDistribution" />
+    </file>
+  </root>
+  <root nodeRef="r:a494e4f3-db7c-4bfa-af23-3bd26abcb398(SCL.build)/6371474974025190040">
+    <file name="Info.plist.xml">
+      <unit id="6371474974025190040" at="1,0,122,8" name="SCL.build.Info$plist" />
+    </file>
+  </root>
+</debug-info>
+
